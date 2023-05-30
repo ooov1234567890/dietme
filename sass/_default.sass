@@ -1,0 +1,39 @@
+*
+    box-sizing: border-box
+
+html, body
+    width: 100%
+    margin: 0
+    padding: 0
+    scroll-behavior: smooth
+
+body
+    overflow-x: hidden
+    font-size: 16px
+    background-color: #ffffff
+    color: rgba(0, 0, 0, 0.6)
+    position: relative
+    +ttRegular
+
+.container
+    margin: 0 128px
+
+.decorated
+    &::before
+        content: ""
+        display: block
+        width: 120px
+        height: 120px
+        background-color: #ffffff
+        border-radius: 50%
+        box-shadow: -20px 10px 65px rgba(0, 0, 0, 0.2)
+        opacity: 0.85
+        position: absolute
+        left: 0
+        top: 0
+        transform: translate(-50%, -50%)
+        z-index: -10
+    &.hero-title
+        &::before
+            width: 180px
+            height: 180px

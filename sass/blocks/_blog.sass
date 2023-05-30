@@ -1,0 +1,49 @@
+.blog-posts
+    display: flex
+    flex-direction: column
+    gap: 96px
+    margin-top: 48px
+
+.blog-post
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    gap: 24px
+
+.blog-post-title
+    margin: 0
+    text-decoration: none
+    font-size: 20px
+    line-height: 106%
+    color: rgba(0, 0, 0, 0.8)
+    +ttBold
+    &.link
+        border-bottom: 1px solid transparent
+        transition: border-color .15s ease
+        &:hover
+            border-color: rgba(0, 0, 0, 0.8)
+
+.blog-post-text
+    margin: 0
+    line-height: 170%
+
+.blog-post-image-link
+    display: block
+    width: 100%
+
+.blog-post-image
+    width: 100%
+    margin-bottom: 36px
+    &:last-child
+        margin-bottom: 0
+
+.blog-post-list
+    margin: 0
+    padding: 0
+    line-height: 170%
+    margin-inline-start: 24px
+
+.blog-post-back-link
+    margin-bottom: 16px
+    img
+        width: 180px

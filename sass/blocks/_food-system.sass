@@ -1,0 +1,163 @@
+.food-system-header
+    margin-top: 128px
+    text-align: center
+    margin-bottom: 56px
+
+.food-system-title
+    color: #000000
+    line-height: 106%
+    font-size: 35px
+    margin: 0 0 24px 0
+    +ttBold
+    span
+        font-size: 50px
+    
+.food-system-description
+    margin: 0 auto
+    max-width: 800px
+    line-height: 170%
+    color: rgba(52, 52, 52, 0.6)
+    font-size: 24px
+
+.tabs-days-keys
+    max-width: 800px
+    margin: 0 auto
+    display: flex
+    justify-content: space-between
+    list-style-type: none
+    padding: 0
+    background-color: #F5F5F5
+    padding: 0 40px
+    border-radius: 20px
+    margin-bottom: 64px
+
+.tabs-days-key
+    padding: 0 40px
+    cursor: pointer
+    line-height: 170%
+    width: 24px
+    text-align: center
+    &:hover, &.current
+        +ttBold
+
+.tabs-content
+    display: grid
+    grid-template-columns: 1fr 1.25fr 1.75fr 1.25fr
+    gap: 20px
+
+.tabs-dish-comment
+    grid-column-start: 1
+    grid-column-end: 3
+
+.tabs-dish-instructions-wrap
+    grid-column-start: 3
+    grid-column-end: 5
+
+.tabs-eatings
+    display: flex
+    flex-direction: column
+    justify-content: center
+    padding: 24px
+    background-color: #F5F5F5
+    border-radius: 20px
+    align-self: flex-start
+
+.tabs-eatings-keys
+    list-style-type: none
+    margin: 0
+    padding: 0
+    display: flex
+    flex-direction: column
+    gap: 20px
+
+.tabs-eatings-key
+    cursor: pointer
+    line-height: 170%
+    &:hover, &.current
+        +ttBold
+
+.tabs-eatings-info
+    margin-top: 40px
+    p
+        line-height: 170%
+        margin: 0
+
+.tabs-dish-image
+    width: 100%
+    object-fit: cover
+    border-radius: 20px
+
+.tabs-dish-name
+    font-size: 20px
+    color: rgba(0, 0, 0, 0.8)
+    line-height: 106%
+    margin: 0 0 20px 0
+    +ttBold
+
+.tabs-dish-ingredients-wrap
+    color: #000000
+
+.tabs-dish-ingredients-title
+    margin: 0
+    line-height: 170%
+
+.tabs-dish-ingredients
+    margin: 0
+    padding: 0
+    line-height: 170%
+    margin-inline-start: 24px
+
+.tabs-dish-cpfc-wrap
+    align-self: start
+    display: flex
+    flex-direction: column
+    padding: 24px
+    background-color: #F5F5F5
+    border-radius: 20px
+
+.tabs-dish-cpfc-title
+    line-height: 170%
+    margin: 0 0 16px 0
+    +ttBold
+
+.tabs-dish-cpfc
+    list-style-type: none
+    margin: 0
+    padding: 0
+    line-height: 170%
+    display: flex
+    flex-direction: column
+    gap: 8px
+
+.tabs-dish-cpfc-weight
+    line-height: 170%
+    margin: 16px 0 0 0
+    +ttBold
+
+.tabs-dish-comment
+    align-self: start
+    padding: 24px
+    border-radius: 20px
+    background-color: rgba(98, 191, 44, 0.25)
+
+.tabs-dish-comment-title
+    line-height: 170%
+    margin: 0 0 16px 0
+    +ttBold
+
+.tabs-dish-comment-text
+    margin: 0
+    line-height: 170%
+
+.tabs-dish-instructions-wrap
+    align-self: start
+    color: #000000
+    line-height: 170%
+
+.tabs-dish-instrucions-title
+    margin: 0
+
+.tabs-dish-instrucions
+    margin: 0
+    padding: 0
+    margin-inline-start: 24px

@@ -1,0 +1,74 @@
+@font-face {
+	font-family: 'Roboto Regular';
+	src: url('../fonts/Roboto-Regular.eot');
+	src: local('../fonts/Roboto'), local('../fonts/Roboto-Regular'),
+		url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Roboto-Regular.woff') format('woff'),
+		url('../fonts/Roboto-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TT Travels Regular';
+	src: url('../fonts/TTTravels-Regular.eot');
+	src: local('../fonts/TT Travels'), local('../fonts/TTTravels-Regular'),
+		url('../fonts/TTTravels-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/TTTravels-Regular.woff') format('woff'),
+		url('../fonts/TTTravels-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TT Travels Medium';
+	src: url('../fonts/TTTravels-Medium.eot');
+	src: local('../fonts/TT Travels'), local('../fonts/TTTravels-Medium'),
+		url('../fonts/TTTravels-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/TTTravels-Medium.woff') format('woff'),
+		url('../fonts/TTTravels-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TT Travels DemiBold';
+	src: url('../fonts/TTTravels-DemiBold.eot');
+	src: local('../fonts/TT Travels'), local('../fonts/TTTravels-DemiBold'),
+		url('../fonts/TTTravels-DemiBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/TTTravels-DemiBold.woff') format('woff'),
+		url('../fonts/TTTravels-DemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TT Travels Bold';
+	src: url('../fonts/TTTravels-Bold.eot');
+	src: local('../fonts/TT Travels'), local('../fonts/TTTravels-Bold'),
+		url('../fonts/TTTravels-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/TTTravels-Bold.woff') format('woff'),
+		url('../fonts/TTTravels-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@mixin rRegular {
+    font-family: "Roboto Regular", sans-serif;
+}
+
+@mixin ttRegular {
+    font-family: "TT Travels Regular", sans-serif;
+}
+
+@mixin ttMedium {
+    font-family: "TT Travels Medium", sans-serif;
+}
+
+@mixin ttDemiBold {
+    font-family: "TT Travels DemiBold", sans-serif;
+}
+
+@mixin ttBold {
+    font-family: "TT Travels Bold", sans-serif;
+}
