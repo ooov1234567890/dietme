@@ -120,12 +120,14 @@ if (trainingTabs) {
 
 const menuButton = document.querySelector(".menu-button");
 const mobileMenu = document.querySelector(".mobile-menu");
-menuButton.addEventListener("click", (e) => {
-    e.preventDefault();
+if (menuButton) {
+    menuButton.addEventListener("click", (e) => {
+        e.preventDefault();
 
-    if (mobileMenu.classList.contains("active")) {
-        mobileMenu.classList.remove("active");
-    } else {
-        mobileMenu.classList.add("active");
-    }
-});
+        if (mobileMenu.classList.contains("active")) {
+            mobileMenu.classList.remove("active");
+        } else {
+            mobileMenu.classList.add("active");
+        }
+    });
+}
